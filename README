@@ -1,0 +1,19 @@
+Currency conversion application.
+
+- Application structure:
+The application interface design is relatively similar to a handheld calculator, including 1 main screen and 1 sub-screen.
+The main screen includes numeric keys, operator function keys, delete and a screen displaying the converted currency. There are 2 function keys to convert exchange rates (currently only applicable to EUR exchange rates due to API permission limitations).
+The sub-screen has the function of displaying, searching and selecting the conversion rate.
+
+- Construction steps:
+Design the display interface of the input value and the conversion value. Design the number input keys, function keys: operator, delete, change exchange rate.
+Design the interface to display the list of currency exchange rates. Design the search box.
+Map the application elements. Build functional code and process data.
+Build the API reading tool and convert data.
+Build and complete other functions of the application: calculation, conversion, search, ...
+Run the demo application and test on the test device.
+Evaluate the function, edit, change until the application runs completely.
+
+- Note:
+Check the connection, check the data of the API from the supplier. Read the documentation and apply the provided API, handle and prevent unexpected errors.
+Design, format the data displayed after being calculated and converted.
